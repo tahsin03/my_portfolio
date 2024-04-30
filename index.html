@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal UI/UX Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cf45ee4fc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src = "images/logo1.png" class="dp">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span class="name">Anika Tahsin</span>.</h1>
+            <div class="justify">
+            <p>A proactive learner seeking continuous learning and self-improvement opportunities to gain practical
+                experience and develop a strong foundation in organizational strategy and  problem-solving. As a passionate UI/UX designer, 
+                I thrive on blending innovation with user-centric design to sculpt captivating interfaces that resonate with users. 
+                Always on the lookout for fresh challenges and cutting-edge solutions, I'm here to elevate your digital presence to new heights.</p>
+            </div>
+
+        </div>
+        
+    </div>
+     
+ </div>  
+ 
+ <!----about---->
+
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <div class="justify">
+                <p>I'm Anika Tahsin, a seasoned UI/UX designer with a passion for crafting immersive digital experiences. 
+                    My journey into the world of design began a year ago, driven by a fascination with the intersection of aesthetics and functionality. 
+                    With a strong foundation in technology, I've honed my skills in designing intuitive interfaces that resonate with users on a profound level. 
+                    From wireframing to prototyping, I approach each project with a meticulous attention to detail and a keen understanding of user behavior. 
+                    What sets me apart is my unwavering commitment to creating designs that not only look stunning but also prioritize user satisfaction and business objectives. 
+                    I thrive on the challenges of solving complex problems through innovative design solutions and am constantly seeking ways to push the boundaries of creativity. 
+                    Let's collaborate to bring your vision to life and make a lasting impact in the digital world.</p>
+                </div>   
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Interfaces<br>Wireframing<br>Prototyping</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Business Analysis</span><br>Requirements Analysis<br>Requirements Management</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020-Present</span><br>Vice President (Administration) in IUT Photographic Society</li>
+                        <li><span>2020-Present</span><br>Operations Executive (Photography & Digital Media) in IUT Computer Society</li>
+                        <li><span>05/2023 - 09/2023 </span><br>Business Analyst Trainee in Brain Station 23</li>
+                        <li><span>12/2020 - 03/2021 </span><br>Executive of Event Management in Interactive Cares</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - present </span><br>Bachelor of Science (Software Engineering) ; CGPA - 3.46/4.00 (Till 7th Semester), Islamic University of Technology (IUT)</li>
+                        <li><span>2017 - 2019 </span><br>Higher Secondary School Certificate ; GPA - 5.00/5.00, Rajshahi College</li>
+                        <li><span>2017 </span><br>Secondary School Certificate, P.N Govt Girls High School, Rajshahi</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+ <!----services---->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>UI/UX Design</h2>
+                <p class="text">As a UI/UX designer, I focus on creating seamless digital experiences by understanding user needs, 
+                    designing intuitive interfaces, and optimizing user journeys. This involves conducting user research, 
+                    creating wireframes and prototypes, and collaborating with developers to ensure a smooth transition from concept to implementation.</p>
+                    <a href="#">Learn More</a>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Web Design</h2>
+                <p class="text">In web design, I specialize in crafting visually appealing and user-friendly websites that 
+                    align with your brand identity and business objectives. This includes designing layouts, selecting typography and color schemes, 
+                    and optimizing for responsiveness across different devices and screen sizes.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h2>App Design</h2>
+                <p class="text">As an app designer, I excel in creating engaging and functional mobile applications that enhance user satisfaction and 
+                    drive business growth. This entails designing user interfaces that are intuitive and easy to navigate, considering factors such as touch gestures, 
+                    screen sizes, and platform-specific guidelines for iOS, Android, or other mobile platforms.</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <!----portfolio---->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/w1.png">
+                <div class="layer">
+                    <h3>Yoga</h3>
+                    <p>Explore my Yoga app design—a serene and user-friendly mobile experience crafted to guide users through their wellness journey with ease and tranquility.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/w2.png">
+                <div class="layer">
+                    <h3>Restora</h3>
+                    <p>Discover my Food app design—a deliciously intuitive mobile experience tailored to satisfy users' cravings and streamline their culinary adventures</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/w6.png">
+                <div class="layer">
+                    <h3>Food App</h3>
+                    <p>Indulge in my Food app creation—an appetizing blend of design and functionality, serving up a delightful experience for food lovers everywhere.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/w3.png">
+                <div class="layer">
+                    <h3>Online Banking</h3>
+                    <p>Experience my Banking app design—a secure and intuitive mobile solution engineered to simplify financial management and empower users in their banking endeavors.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/w4.png">
+                <div class="layer">
+                    <h3>Digital Wallet</h3>
+                    <p>Explore my Digital Wallet app—a seamless and secure mobile solution designed to simplify transactions and empower users to manage their finances with convenience and confidence.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----contact---->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>anikatahsin3@iut-dhaka.edu</p>
+                <p><i class="fa-solid fa-phone"></i>01779314967</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anika-tahsin-874757207/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://dribbble.com/tahsin03"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100010447481897"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/tahsin_anika._/"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Anika Tahsin</p>
+    </div>
+</div>
+
+
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+ </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzkCfFhO1P76qSavN8zT7OFEmdcOYR1zQFnG9Dn8WUdt9EydUh__gxaQct3Lim8zGBN/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
